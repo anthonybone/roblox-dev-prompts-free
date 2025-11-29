@@ -29,7 +29,7 @@ Create a test plan for testing a coin collection system in a Roblox game.
 
 Feature description:
 - Players can collect coins by walking into them
-- Each coin adds points to the player"s score
+- Each coin adds points to the player's score
 - Coins disappear after collection
 
 Test without knowing:
@@ -94,7 +94,7 @@ Test without knowing:
 
 ### TC-004: Coin Persistence
 **Steps:**
-1. Approach a coin but don"t touch it
+1. Approach a coin but don't touch it
 2. Walk away
 3. Return to the coin
 
@@ -282,7 +282,7 @@ Create a user journey test for an obby (obstacle course) game covering:
 
 **Verify:**
 - [ ] Shortcuts are intentional or blocked
-- [ ] Can"t skip to later sections unfairly
+- [ ] Can't skip to later sections unfairly
 
 ---
 
@@ -368,7 +368,7 @@ Modify local currency display/value via exploits
 
 **Expected Defense:**
 - Server validates actual currency on purchase
-- Client display doesn"t affect server state
+- Client display doesn't affect server state
 
 **Pass Criteria:** Purchase fails or uses real server value
 
@@ -402,7 +402,7 @@ Rapidly send multiple purchase requests
 
 **Expected Defense:**
 - Only one purchase succeeds
-- Currency doesn"t go negative
+- Currency doesn't go negative
 - No duplicate items received
 
 **Pass Criteria:** Single purchase processed correctly

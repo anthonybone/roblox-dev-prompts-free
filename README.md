@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 What"s Inside
+## 📋 What's Inside
 
 This repository contains AI-ready prompts designed specifically for Roblox development. Each prompt template is battle-tested and includes:
 

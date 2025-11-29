@@ -41,12 +41,12 @@ local coins = player.leaderstats.Coins.Value
 **Expected Output:**
 \`\`\`
 ANALYSIS:
-The error "attempt to index nil" means you"re trying to access a property of something 
-that doesn"t exist (nil). In this case, "leaderstats" doesn"t exist on the player yet.
+The error "attempt to index nil" means you're trying to access a property of something 
+that doesn't exist (nil). In this case, "leaderstats" doesn't exist on the player yet.
 
 ROOT CAUSE:
 The "leaderstats" folder is created by another script, but this script is trying to 
-access it before it"s been created. Race conditions are common in Roblox when multiple 
+access it before it's been created. Race conditions are common in Roblox when multiple 
 scripts interact with the same objects.
 
 FIX:
@@ -321,7 +321,7 @@ Add proper error handling for RemoteEvents/Functions in this script:
 [paste code]
 
 Issues:
-- Sometimes the remote doesn"t work
+- Sometimes the remote doesn't work
 - No feedback when it fails
 \`\`\`
 
@@ -344,17 +344,17 @@ Issues:
 
 ### Nil Value Error
 \`\`\`
-My Roblox script shows "attempt to index nil with [property]". The code is [paste code]. What"s causing this and how do I fix it?
+My Roblox script shows "attempt to index nil with [property]". The code is [paste code]. What's causing this and how do I fix it?
 \`\`\`
 
 ### Infinite Yield Warning
 \`\`\`
-I"m getting "Infinite yield possible" warnings. Here"s my code: [paste code]. How do I fix this?
+I'm getting "Infinite yield possible" warnings. Here's my code: [paste code]. How do I fix this?
 \`\`\`
 
 ### Remote Event Not Working
 \`\`\`
-My RemoteEvent isn"t firing/receiving. Server code: [paste]. Client code: [paste]. What"s wrong?
+My RemoteEvent isn't firing/receiving. Server code: [paste]. Client code: [paste]. What's wrong?
 \`\`\`
 
 ### DataStore Errors
@@ -364,5 +364,5 @@ My DataStore is throwing errors. Error message: [paste]. Code: [paste]. How do I
 
 ### Script Not Running
 \`\`\`
-My script isn"t running at all. Location: [where script is]. Type: [Script/LocalScript/ModuleScript]. Code: [paste first few lines]. What could be wrong?
+My script isn't running at all. Location: [where script is]. Type: [Script/LocalScript/ModuleScript]. Code: [paste first few lines]. What could be wrong?
 \`\`\`
